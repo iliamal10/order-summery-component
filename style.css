@@ -141,11 +141,12 @@ main {
   }
 
   .container {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
 .container {
-  width: 1349px;
+  width: 100%;
+  max-width: 500%;
   height: 305px;
 }
