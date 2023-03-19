@@ -122,6 +122,12 @@ main {
   border-radius: 11px;
   margin-top: 32px;
   border: white;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  transform: translateY(-3px);
+  transition: 0.8s;
 }
 
 .main_order {
@@ -133,6 +139,14 @@ main {
   text-align: center;
   color: #717fa6;
   margin-top: 32px;
+  cursor: pointer;
+}
+
+.main_order:hover {
+  transform: translateY(-3px);
+  transition: 0.8s;
+  color: rgb(44, 37, 37);
+  font-size: 16px;
 }
 
 @media (min-width: 720px) {
