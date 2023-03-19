@@ -134,3 +134,18 @@ main {
   color: #717fa6;
   margin-top: 32px;
 }
+
+@media (min-width: 720px) {
+  main {
+    flex-direction: row;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+.container {
+  width: 1349px;
+  height: 305px;
+}
